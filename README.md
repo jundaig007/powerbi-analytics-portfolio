@@ -2,6 +2,10 @@
 
 A portfolio case study demonstrating end-to-end business intelligence delivery in Power BI: KPI definition, data modeling, DAX, executive visualization, validation, and decision support.
 
+![SaaS Executive Analytics Executive Overview](screenshots/saas-executive-overview.png)
+
+**Architecture:** dbt + SQL Server + Power BI
+
 ## Executive Overview
 
 The dashboard consolidates several SaaS operating domains into a single executive view:
