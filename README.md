@@ -1,66 +1,42 @@
-# Power BI Analytics Portfolio
+# SaaS Executive Analytics - Power BI Portfolio
 
-A portfolio of business intelligence and analytics projects demonstrating end-to-end Power BI delivery: requirements analysis, data preparation, data modeling, DAX, KPI design, visualization, validation, and business insight generation.
+A portfolio case study demonstrating end-to-end business intelligence delivery in Power BI: KPI definition, data modeling, DAX, executive visualization, validation, and decision support.
 
-## Featured Case Study
+## Executive Overview
 
-### Power BI Executive Analytics Dashboard
+The dashboard consolidates several SaaS operating domains into a single executive view:
 
-**Focus:** Business Intelligence, Data Analytics, Executive Reporting
+- **Revenue:** ARR, MRR, period-over-period change, and revenue trend
+- **Customer health:** churn rate, at-risk customers, MRR at risk, health distribution, and NPS context
+- **Sales:** win rate, open pipeline, pipeline by stage, and pipeline by sales representative
+- **Workforce:** employee attrition rate and attrition by department
+- **Data operations:** last-refresh visibility for reporting confidence
 
-This project demonstrates how raw operational data can be transformed into a decision-ready Power BI solution for leadership and business users.
+The goal is to give leadership a concise, decision-ready view of company performance without requiring separate operational reports.
 
-### Business Problem
+## Dashboard Design
 
-Business stakeholders need a consolidated view of performance that makes it easy to monitor KPIs, identify trends, compare periods, investigate exceptions, and support operational decisions.
+The current PBIX contains an **Executive Overview** page with KPI cards and analytical visuals covering ARR, MRR, monthly customer churn, customer health, customer risk, NPS, win rate, open pipeline, sales pipeline, employee attrition, and trend analysis.
 
-### Solution
+## Data Model
 
-The reporting workflow covers:
+The report references analytical marts for executive KPIs, monthly revenue, customer health, sales pipeline, workforce, and refresh information. This separation supports a reporting-oriented model where curated analytical datasets feed reusable executive measures and visuals.
 
-- Business requirements and KPI definition
-- Data profiling and cleansing
-- Power Query transformations
-- Data modeling and relationship design
-- DAX measures and calculated KPIs
-- Current vs. previous-period analysis
-- Executive and operational visualizations
-- Data validation and reconciliation
-- Performance optimization
-- Documentation of assumptions and business rules
+## Skills Demonstrated
 
-### Technical Stack
+**Power BI | DAX | Power Query | Data Modeling | SQL | KPI Design | Data Visualization | Business Analysis | Data Validation | Executive Reporting**
 
-- Power BI
-- DAX
-- Power Query
-- SQL
-- Data Modeling
-- Data Visualization
-- Data Validation
-- Business Analysis
+## Portfolio Safety
+
+The public portfolio should contain only synthetic, sanitized, or non-confidential data. Employer/client datasets, credentials, connection strings, personally identifiable information, and proprietary source-system information should not be published.
 
 ## Repository Structure
 
-```text
-powerbi-analytics-portfolio/
-├── README.md
-├── screenshots/
-│   └── Add dashboard screenshots here
-├── pbix/
-│   └── Add sanitized .pbix files here
-├── sample-data/
-│   └── Add synthetic or sanitized datasets here
-└── documentation/
-    ├── data-model.md
-    ├── dax-measures.md
-    └── business-requirements.md
-```
-
-## Portfolio Notes
-
-Only sanitized, synthetic, or non-confidential data should be published in this repository. Employer or client datasets, credentials, proprietary business logic, and confidential information should not be uploaded.
+- `screenshots/` - exported dashboard images
+- `pbix/` - sanitized Power BI Desktop files
+- `sample-data/` - synthetic or sanitized datasets
+- `documentation/` - requirements, DAX, and data-model documentation
 
 ## About
 
-Created by Jun Daig as part of a broader portfolio covering business intelligence, data analytics, systems analysis, full-stack development, and workflow automation.
+Created by **Jun Daig** as part of a portfolio spanning business intelligence, data analytics, systems analysis, full-stack development, and workflow automation.
